@@ -1,0 +1,549 @@
+LABELBLOCK
+  LABEL lbl_edu
+    1 "Intermediate"
+    2 "Secondary"
+    3 "Institute"
+    4 "University"
+    9 "Missing / no answer"
+  END
+  LABEL lbl_yn
+    1 "Yes"
+    2 "No"
+    9 "Missing / no answer"
+  END
+  LABEL lbl_intent
+    1 "Yes, I intend to use"
+    2 "Maybe, not decided yet"
+    3 "No"
+    9 "Missing / no answer"
+  END
+  LABEL lbl_age1
+    1 "14-18"
+    2 "19-25"
+    3 "26-34"
+    4 ">35"
+    9 "Missing / no answer"
+  END
+  LABEL lbl_route
+    1 "Mostly oral"
+    2 "Mostly injection"
+    3 "Both"
+    9 "Missing / no answer"
+  END
+  LABEL lbl_admin
+    1 "By myself alone"
+    2 "With friends who also use"
+    3 "At gym by a specialist"
+    9 "Missing / no answer"
+  END
+  LABEL lbl_cycle
+    1 "Once or twice in my life"
+    2 "One cycle/year, 1-2 types"
+    3 "One or more cycles/year, >2 types"
+    9 "Missing / no answer"
+  END
+  LABEL lbl_need
+    1 "Yes, must use to get results"
+    2 "No, just trying"
+    9 "Missing / no answer"
+  END
+  LABEL lbl_source
+    1 "Friends at gym"
+    2 "Gym trainer"
+    3 "Hormone seller"
+    4 "Internet"
+    5 "Pharmacy or doctor"
+    6 "Abroad when travelling"
+    9 "Missing / no answer"
+  END
+  LABEL lbl_reason
+    1 "Main reason"
+    2 "Secondary reason"
+    3 "No"
+    9 "Missing / no answer"
+  END
+  LABEL lbl_goal
+    1 "Yes"
+    2 "Less than I hoped"
+    3 "Not yet"
+    4 "No, got nothing I wanted"
+    9 "Missing / no answer"
+  END
+  LABEL lbl_q13
+    1 "Yes"
+    2 "No"
+    3 "A little"
+    9 "Missing / no answer"
+  END
+  LABEL lbl_info
+    1 "Most information"
+    2 "Some information"
+    3 "No"
+    9 "Missing / no answer"
+  END
+  LABEL lbl_avail
+    1 "Yes, hard to obtain"
+    2 "A little"
+    3 "No, available and easy"
+    9 "Missing / no answer"
+  END
+  LABEL lbl_attit
+    1 "Encourage, if used correctly"
+    2 "Wrong, should be banned"
+    3 "Fine for those who learn how"
+    4 "Don't know"
+    5 "Harmful, better avoided"
+    9 "Missing / no answer"
+  END
+  LABEL lbl_advice
+    1 "Yes, gym trainer"
+    2 "Yes, protein/supplement seller"
+    3 "Yes, friend or gym member"
+    4 "Yes, magazine or website"
+    5 "No one advised me"
+    9 "Missing / no answer"
+  END
+  LABEL lbl_yndk_ask
+    1 "Yes"
+    2 "No"
+    3 "Don't know, would ask first"
+    9 "Missing / no answer"
+  END
+  LABEL lbl_yndk
+    1 "Yes"
+    2 "No"
+    3 "Don't know"
+    9 "Missing / no answer"
+  END
+  LABEL lbl_agree
+    1 "Disagree"
+    2 "Don't know"
+    3 "Agree a little"
+    4 "Fully agree"
+    9 "Missing / no answer"
+  END
+  LABEL lbl_true
+    1 "Yes, true"
+    2 "No, not true"
+    3 "Don't know"
+    9 "Missing / no answer"
+  END
+  LABEL lbl_tick
+    0 "Not selected"
+    1 "Selected"
+    9 "Missing / no answer"
+  END
+  LABEL lbl_yndk2
+    1 "Yes"
+    2 "No"
+    3 "Don't know"
+    9 "Missing / no answer"
+  END
+  LABEL lbl_much
+    1 "Yes, a lot"
+    2 "Somewhat"
+    3 "No"
+    9 "Missing / no answer"
+  END
+  LABEL lbl_rarely
+    1 "Yes"
+    2 "No or rarely"
+    9 "Missing / no answer"
+  END
+  LABEL lbl_maybe
+    1 "Yes"
+    2 "Maybe, but not important"
+    3 "No, I don't think so"
+    9 "Missing / no answer"
+  END
+  LABEL lbl_often
+    1 "Yes, often"
+    2 "Yes, sometimes"
+    3 "No"
+    9 "Missing / no answer"
+  END
+  LABEL lbl_drink
+    1 "Yes, that is my reason"
+    2 "Sometimes"
+    3 "No, not to help training"
+    9 "Missing / no answer"
+  END
+END
+
+respid
+  MUSTENTER
+END
+
+gym
+  RANGE 1 12
+END
+
+q1
+  COMMENT LEGAL USE lbl_edu
+  TYPE COMMENT
+END
+
+q2
+  COMMENT LEGAL USE lbl_yn
+  TYPE COMMENT
+  MUSTENTER
+  JUMPS
+    2 q13
+    9 q13
+  END
+END
+
+q3
+  COMMENT LEGAL USE lbl_intent
+  TYPE COMMENT
+END
+
+q4
+  COMMENT LEGAL USE lbl_yn
+  TYPE COMMENT
+END
+
+q5
+  COMMENT LEGAL USE lbl_age1
+  TYPE COMMENT
+END
+
+q6
+  COMMENT LEGAL USE lbl_route
+  TYPE COMMENT
+END
+
+q7
+  COMMENT LEGAL USE lbl_admin
+  TYPE COMMENT
+END
+
+q8
+  COMMENT LEGAL USE lbl_cycle
+  TYPE COMMENT
+END
+
+q9
+  COMMENT LEGAL USE lbl_need
+  TYPE COMMENT
+END
+
+q10
+  COMMENT LEGAL USE lbl_source
+  TYPE COMMENT
+END
+
+q11a
+  COMMENT LEGAL USE lbl_reason
+  TYPE COMMENT
+END
+
+q11b
+  COMMENT LEGAL USE lbl_reason
+  TYPE COMMENT
+END
+
+q11c
+  COMMENT LEGAL USE lbl_reason
+  TYPE COMMENT
+END
+
+q11d
+  COMMENT LEGAL USE lbl_reason
+  TYPE COMMENT
+END
+
+q11e
+  COMMENT LEGAL USE lbl_reason
+  TYPE COMMENT
+END
+
+q12
+  COMMENT LEGAL USE lbl_goal
+  TYPE COMMENT
+END
+
+q13
+  COMMENT LEGAL USE lbl_q13
+  TYPE COMMENT
+END
+
+q14a
+  COMMENT LEGAL USE lbl_info
+  TYPE COMMENT
+END
+
+q14b
+  COMMENT LEGAL USE lbl_info
+  TYPE COMMENT
+END
+
+q14c
+  COMMENT LEGAL USE lbl_info
+  TYPE COMMENT
+END
+
+q14d
+  COMMENT LEGAL USE lbl_info
+  TYPE COMMENT
+END
+
+q14e
+  COMMENT LEGAL USE lbl_info
+  TYPE COMMENT
+END
+
+q15
+  COMMENT LEGAL USE lbl_avail
+  TYPE COMMENT
+END
+
+q16
+  COMMENT LEGAL USE lbl_attit
+  TYPE COMMENT
+END
+
+q17a
+  COMMENT LEGAL USE lbl_reason
+  TYPE COMMENT
+END
+
+q17b
+  COMMENT LEGAL USE lbl_reason
+  TYPE COMMENT
+END
+
+q17c
+  COMMENT LEGAL USE lbl_reason
+  TYPE COMMENT
+END
+
+q17d
+  COMMENT LEGAL USE lbl_reason
+  TYPE COMMENT
+END
+
+q17e
+  COMMENT LEGAL USE lbl_reason
+  TYPE COMMENT
+END
+
+q17f
+  COMMENT LEGAL USE lbl_reason
+  TYPE COMMENT
+END
+
+q17g
+  COMMENT LEGAL USE lbl_reason
+  TYPE COMMENT
+END
+
+q18
+  COMMENT LEGAL USE lbl_advice
+  TYPE COMMENT
+END
+
+q19a
+  COMMENT LEGAL USE lbl_reason
+  TYPE COMMENT
+END
+
+q19b
+  COMMENT LEGAL USE lbl_reason
+  TYPE COMMENT
+END
+
+q19c
+  COMMENT LEGAL USE lbl_reason
+  TYPE COMMENT
+END
+
+q19d
+  COMMENT LEGAL USE lbl_reason
+  TYPE COMMENT
+END
+
+q19e
+  COMMENT LEGAL USE lbl_reason
+  TYPE COMMENT
+END
+
+q20
+  COMMENT LEGAL USE lbl_yndk_ask
+  TYPE COMMENT
+END
+
+q21
+  COMMENT LEGAL USE lbl_yndk
+  TYPE COMMENT
+END
+
+q22
+  COMMENT LEGAL USE lbl_agree
+  TYPE COMMENT
+END
+
+q23
+  COMMENT LEGAL USE lbl_true
+  TYPE COMMENT
+END
+
+q24a
+  COMMENT LEGAL USE lbl_tick
+  TYPE COMMENT
+END
+
+q24b
+  COMMENT LEGAL USE lbl_tick
+  TYPE COMMENT
+END
+
+q24c
+  COMMENT LEGAL USE lbl_tick
+  TYPE COMMENT
+END
+
+q24d
+  COMMENT LEGAL USE lbl_tick
+  TYPE COMMENT
+END
+
+q25a
+  COMMENT LEGAL USE lbl_yndk2
+  TYPE COMMENT
+END
+
+q25b
+  COMMENT LEGAL USE lbl_yndk2
+  TYPE COMMENT
+END
+
+q25c
+  COMMENT LEGAL USE lbl_yndk2
+  TYPE COMMENT
+END
+
+q25d
+  COMMENT LEGAL USE lbl_yndk2
+  TYPE COMMENT
+END
+
+q25e
+  COMMENT LEGAL USE lbl_yndk2
+  TYPE COMMENT
+END
+
+q25f
+  COMMENT LEGAL USE lbl_yndk2
+  TYPE COMMENT
+END
+
+q25g
+  COMMENT LEGAL USE lbl_yndk2
+  TYPE COMMENT
+END
+
+q25h
+  COMMENT LEGAL USE lbl_yndk2
+  TYPE COMMENT
+END
+
+q25i
+  COMMENT LEGAL USE lbl_yndk2
+  TYPE COMMENT
+END
+
+q25j
+  COMMENT LEGAL USE lbl_yndk2
+  TYPE COMMENT
+END
+
+q25k
+  COMMENT LEGAL USE lbl_yndk2
+  TYPE COMMENT
+END
+
+q26
+  COMMENT LEGAL USE lbl_yn
+  TYPE COMMENT
+END
+
+q27
+  COMMENT LEGAL USE lbl_much
+  TYPE COMMENT
+END
+
+q28
+  COMMENT LEGAL USE lbl_rarely
+  TYPE COMMENT
+END
+
+q29
+  COMMENT LEGAL USE lbl_maybe
+  TYPE COMMENT
+END
+
+q30
+  COMMENT LEGAL USE lbl_yn
+  TYPE COMMENT
+END
+
+q31
+  COMMENT LEGAL USE lbl_often
+  TYPE COMMENT
+END
+
+q32
+  COMMENT LEGAL USE lbl_drink
+  TYPE COMMENT
+END
+
+q33a
+  COMMENT LEGAL USE lbl_yn
+  TYPE COMMENT
+END
+
+q33b
+  COMMENT LEGAL USE lbl_yn
+  TYPE COMMENT
+END
+
+q33c
+  COMMENT LEGAL USE lbl_yn
+  TYPE COMMENT
+END
+
+q33d
+  COMMENT LEGAL USE lbl_yn
+  TYPE COMMENT
+END
+
+q33e
+  COMMENT LEGAL USE lbl_yn
+  TYPE COMMENT
+END
+
+q33f
+  COMMENT LEGAL USE lbl_yn
+  TYPE COMMENT
+END
+
+q33g
+  COMMENT LEGAL USE lbl_yn
+  TYPE COMMENT
+END
+
+q33h
+  COMMENT LEGAL USE lbl_yn
+  TYPE COMMENT
+END
+
+q33i
+  COMMENT LEGAL USE lbl_yn
+  TYPE COMMENT
+END
+
+q33j
+  COMMENT LEGAL USE lbl_yn
+  TYPE COMMENT
+END

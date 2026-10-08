@@ -1,0 +1,145 @@
+AAS use among gym users - Muscat Governorate - data entry form
+
+respid   Questionnaire ID (scan file no.)   __________
+gym      Gym code (1-12)                    ##
+entdate  Date of entry                      <dd/mm/yyyy>
+
+
+--- Q1 ---
+q1       Education level                                                #
+
+--- Q2 ---
+q2       Currently uses AAS/hormones                                    #
+
+--- Q3 ---
+q3       Intends to use hormones                                        #
+
+--- Q4 ---
+q4       Q4 (wording to confirm)                                        #
+
+--- Q5 ---   [users only]
+q5       Age at first use                                               #
+
+--- Q6 ---   [users only]
+q6       Route of use                                                   #
+
+--- Q7 ---   [users only]
+q7       How/where administered                                         #
+
+--- Q8 ---   [users only]
+q8       Pattern of use (cycles)                                        #
+
+--- Q9 ---   [users only]
+q9       Must use to get results                                        #
+
+--- Q10 ---   [users only]
+q10      Main source of hormones                                        #
+
+--- Q11 ---   [users only]
+q11a     Reason for use: To build muscle shape                          #
+q11b     Reason for use: To gain more strength                          #
+q11c     Reason for use: Because others use them                        #
+q11d     Reason for use: Someone recommended them                       #
+q11e     Reason for use: Read about them and liked it                   #
+
+--- Q12 ---   [users only]
+q12      Achieved desired result                                        #
+
+--- Q13 ---
+q13      Q13 (wording to confirm)                                       #
+
+--- Q14 ---
+q14a     Information source: Friends                                    #
+q14b     Information source: TV/Internet                                #
+q14c     Information source: Doctor                                     #
+q14d     Information source: Trainers                                   #
+q14e     Information source: Vendors                                    #
+
+--- Q15 ---
+q15      Hard to obtain hormones                                        #
+
+--- Q16 ---
+q16      Attitude toward hormone use                                    #
+
+--- Q17 ---
+q17a     Reason for non-use, item 1 (copy wording from questionnaire)   #
+q17b     Reason for non-use, item 2 (copy wording from questionnaire)   #
+q17c     Reason for non-use, item 3 (copy wording from questionnaire)   #
+q17d     Reason for non-use, item 4 (copy wording from questionnaire)   #
+q17e     Reason for non-use, item 5 (copy wording from questionnaire)   #
+q17f     Reason for non-use, item 6 (copy wording from questionnaire)   #
+q17g     Reason for non-use, item 7 (copy wording from questionnaire)   #
+
+--- Q18 ---
+q18      Anyone advised you to use hormones                             #
+
+--- Q19 ---
+q19a     Reason for attending gym: Weight loss                          #
+q19b     Reason for attending gym: Body shape                           #
+q19c     Reason for attending gym: Health/fitness                       #
+q19d     Reason for attending gym: Strength                             #
+q19e     Reason for attending gym: Fill free time                       #
+
+--- Q20 ---
+q20      Q20 (wording to confirm)                                       #
+
+--- Q21 ---
+q21      Q21 (wording to confirm)                                       #
+
+--- Q22 ---
+q22      Q22 (wording to confirm)                                       #
+
+--- Q23 ---
+q23      Q23 (wording to confirm)                                       #
+
+--- Q24 ---
+q24a     Are hormones harmful? option ticked: Not harmful if used cor   #
+q24b     Are hormones harmful? option ticked: Don't know                #
+q24c     Are hormones harmful? option ticked: Harmful but not very      #
+q24d     Are hormones harmful? option ticked: Very harmful              #
+
+--- Q25 ---
+q25a     Health problem caused by hormones: Respiratory                 #
+q25b     Health problem caused by hormones: Acne                        #
+q25c     Health problem caused by hormones: Heart                       #
+q25d     Health problem caused by hormones: Muscle weakness             #
+q25e     Health problem caused by hormones: Liver                       #
+q25f     Health problem caused by hormones: Anemia                      #
+q25g     Health problem caused by hormones: Cancer                      #
+q25h     Health problem caused by hormones: Gynecomastia                #
+q25i     Health problem caused by hormones: Aggression                  #
+q25j     Health problem caused by hormones: Addiction                   #
+q25k     Health problem caused by hormones: Infertility                 #
+
+--- Q26 ---
+q26      Q26 (wording to confirm)                                       #
+
+--- Q27 ---
+q27      Q27 (wording to confirm)                                       #
+
+--- Q28 ---
+q28      Q28 (wording to confirm)                                       #
+
+--- Q29 ---
+q29      Q29 (wording to confirm)                                       #
+
+--- Q30 ---
+q30      Q30 (wording to confirm)                                       #
+
+--- Q31 ---
+q31      Q31 (wording to confirm)                                       #
+
+--- Q32 ---
+q32      Drinks it to help training                                     #
+
+--- Q33 ---
+q33a     Product used: Growth                                           #
+q33b     Product used: Super pump                                       #
+q33c     Product used: Super charge                                     #
+q33d     Product used: Creatine                                         #
+q33e     Product used: Hormone booster                                  #
+q33f     Product used: Growth booster                                   #
+q33g     Product used: Amino acid/protein                               #
+q33h     Product used: Cutting pills                                    #
+q33i     Product used: Vasodilator                                      #
+q33j     Product used: Other                                            #
